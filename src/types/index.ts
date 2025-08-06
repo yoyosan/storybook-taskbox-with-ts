@@ -1,6 +1,4 @@
-// Type definitions for the application
-
-export interface Task {
+export type Task = {
   id: string;
   state:
     | 'TASK_INBOX'
@@ -9,10 +7,10 @@ export interface Task {
     | 'TASK_IN_PROGRESS'
     | 'TASK_COMPLETED';
   title: string;
-}
+};
 
-export interface TaskList {
+export type TaskList = {
   tasks: Task[];
   loading: boolean;
   error?: string;
-}
+};

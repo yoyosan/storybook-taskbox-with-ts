@@ -6,7 +6,10 @@
 
 <h1 align="center">
   Chromatic's Intro to Storybook Vue template
+  with Vue 3, Vite, Pinia and Typescript.
 </h1>
+
+Find out more at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/vue/en/get-started/).
 
 This template ships with the main Vue and Storybook configuration files you'll need to get up and running fast.
 
